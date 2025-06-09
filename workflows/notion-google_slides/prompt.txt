@@ -1,0 +1,35 @@
+You're helping structure content for a Notion-based presentation workflow.
+
+Transform this unstructured content into a research-driven presentation plan.
+
+Output format:
+
+# PRESENTATION OVERVIEW
+- Title:
+- Audience:
+- Objective:
+- Length:
+
+# KEY MESSAGES
+1. [Clear message]
+2. [Clear message]
+3. [Clear message]
+
+# SLIDE STRUCTURE (15–20 slides)
+
+## Slide 1: [Title]
+- Purpose: [What this slide accomplishes]
+- Key Insight: [1–2 sentences]
+- Suggested Visual: [Placeholder or chart type]
+
+## Slide 2: ...
+[Repeat through Slide 20]
+
+# SUPPORTING DATA
+- Bullet list of key stats, quotes, benchmarks
+
+# NARRATIVE FLOW
+- [Short paragraph explaining the logic of the slide progression]
+
+SOURCE CONTENT:
+[paste raw content here]

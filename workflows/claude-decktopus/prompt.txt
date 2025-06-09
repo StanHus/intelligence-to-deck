@@ -1,0 +1,6 @@
+Please convert the following raw customer support conversation into a structured slide deck outline.
+Deliver:
+- 15–20 slides
+- Each slide with a title, 3–4 bullet points, and a suggested visual
+- Follow a logical flow from context → problems → data → solutions → summary
+Content:
