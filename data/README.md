@@ -6,8 +6,8 @@ This directory contains the empirical data supporting the claims in our AI-to-sl
 
 | File                     | Purpose                             | Sample Size       | Key Metrics                            |
 | ------------------------ | ----------------------------------- | ----------------- | -------------------------------------- |
-| `tool-comparison.csv`    | 17-tool evaluation matrix           | 17 tools          | Content population %, timing, accuracy |
-| `timing-analysis.csv`    | Manual vs automated workflow timing | 80 runs           | Stage-by-stage timing breakdown        |
+| `tool-comparison.csv`    | 20-tool evaluation matrix           | 20 tools          | Content population %, timing, accuracy |
+| `timing-analysis.csv`    | Manual vs automated workflow timing | 90 runs           | Stage-by-stage timing breakdown        |
 | `accuracy-by-domain.csv` | Cross-domain validation results     | 45 documents      | Domain-specific accuracy and timing    |
 | `roi-analysis.csv`       | Forrester TEI study data extract    | 30K employees     | 248% ROI, $39.85M NPV, <6mo payback    |
 | `quality-thresholds.csv` | Quality vs satisfaction correlation | 200 presentations | Client satisfaction by accuracy range  |
@@ -18,7 +18,9 @@ This directory contains the empirical data supporting the claims in our AI-to-sl
 
 - **Manual workflow**: 15-18 minutes average (±5 min variance)
 - **Automated workflow**: 12 minutes consistent (±2 min variance)
-- **Content population**: Decktopus 94% vs competitors <30%
+- **Python-Slides workflow**: 26.2 minutes total (10.2 min generation + 15.5 min styling)
+- **API automation paradox**: 88-95% technical automation requiring extensive manual styling
+- **Content population**: Decktopus 94% vs competitors <30% vs API tools 88-95%
 - **Cross-domain accuracy**: 94-97% across finance, healthcare, technology
 
 ### External Validation (Forrester TEI)
@@ -34,7 +36,10 @@ This directory contains the empirical data supporting the claims in our AI-to-sl
 ### Tool Comparison (tool-comparison.csv)
 
 - **Winner**: Decktopus with 94% automated content population
-- **Runner-up**: Template-based tools averaging 25-30% population
+- **Runner-up**: API-based tools (Python→Google Slides, Indico Labs, PowerPoint Generator) achieving 88-95% automation but only 58-67% presentation quality
+- **Key Finding**: High technical automation doesn't equal time savings due to styling requirements
+- **API Trade-off**: Fast generation (8-12 min) + manual styling (15+ min) = 26+ min total vs 12 min PDF workflow
+- **Traditional Tools**: Template-based tools averaging 25-30% population
 - **Failure cases**: Design-first tools (Canva, Figma) requiring manual content entry
 - **Success criteria**: >90% population rate and <20 min total time
 

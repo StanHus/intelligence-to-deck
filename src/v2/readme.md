@@ -250,6 +250,17 @@ python src/utils/exporters/google_slides.py clean_slides.txt "Business Presentat
 - **Quick Prototyping**: Use `txt` format for rapid content development
 - **Data Integration**: Use `json` format for custom processing
 
+### Important: API Automation vs Visual Quality
+
+**Key Finding**: Our testing revealed that direct API approaches achieve high technical automation (88-95%) but produce basic presentations requiring extensive manual styling:
+
+- **Generation Time**: 10.2 minutes (very fast)
+- **Styling Time**: +15.5 minutes (manual formatting required)
+- **Total Time**: 26.2 minutes vs 12 minutes for PDF-carrier workflows
+- **Quality Scores**: 63-68% vs 94-96% for PDF workflows
+
+**Recommendation**: Use API workflows for collaborative editing and team sharing, but expect additional styling work for presentation-ready output. For fastest end-to-end automation, consider the [Python-Decktopus workflow](../v1/readme.md).
+
 ## Next Steps
 
 For Marp/Decktopus integration, see the [Python-Decktopus workflow](../v1/readme.md).
