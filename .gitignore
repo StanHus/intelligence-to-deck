@@ -3,3 +3,7 @@
 .venv/
 
 content/
+
+credentials.json
+
+token.json
