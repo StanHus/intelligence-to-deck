@@ -1,0 +1,27 @@
+Benefit Category,Year 1,Year 2,Year 3,Present Value (PV),Source Context
+End-user RPA Efficiencies,$4032000,$5376000,$6720000,$13157265,25% employees affected by automation
+Extended Workflow Automation,$6507600,$13015200,$19522800,$31340132,66% employees affected by complex workflows
+Professional Developer Efficiency,$789750,$789750,$789750,$1963991,Developer productivity improvements
+Reduced Legacy System Costs,$2667600,$3885840,$5104080,$9471300,90% legacy tool elimination by Year 3
+Total Benefits,$13996950,$23066790,$32136630,$55932688,Forrester TEI composite organization
+,,,,,
+Cost Category,Year 1,Year 2,Year 3,Present Value (PV),Source Context
+Licensing Costs,$4752000,$4752000,$4752000,$11817521,Power Platform licensing for 30K employees
+Implementation & Training,$167072,$0,$0,$999575,Professional developer training
+Citizen Developer Training,$1282050,$1282050,$965250,$3267052,600 citizen developers annually
+Total Costs,$6201122,$6034050,$5717250,$16084148,Risk-adjusted implementation costs
+,,,,,
+Financial Summary,Initial,Year 1,Year 2,Year 3,Present Value
+Net Benefits,-$1164491,$7795828,$17032740,$26419380,$39848540
+ROI Percentage,,,,,248%
+NPV,,,,,$ 39850000
+Payback Period,,,,,< 6 months
+,,,,,
+Key Assumptions,Value,Source,Context,,
+Composite Organization Size,30000,Forrester TEI,Global organization with $10B revenue,,
+Hourly Rate - General Staff,$40,Forrester TEI,Fully burdened rate for automation users,,
+Hourly Rate - Developers,$84.38,Forrester TEI,Professional developer rate,,
+Annual Rate - Developers,$175500,Forrester TEI,Ongoing management team,,
+Productivity Recapture,50%,Forrester TEI,Conservative efficiency assumption,,
+High-Impact Use Cases,250 hours saved,Forrester TEI,12% productivity lift per employee,,
+Medium-Impact Use Cases,10-20 hours saved,Forrester TEI,Sporadic efficiency gains,, 

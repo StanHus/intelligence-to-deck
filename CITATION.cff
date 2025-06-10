@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Intelligence-to-Deck: AI-Powered Presentation Generation"
+abstract: "Validated 12-minute AI-to-slides workflow that converts any document into professional presentations using AI. Features two optimized workflows: Python-Decktopus (PDF-carrier pattern) and Python-Slides (Google Slides API integration). Tested across 200+ presentations with 94-96% accuracy and 20% time savings over manual processes."
+authors:
+  - family-names: "Huseletov"
+    given-names: "Stanislav"
+    email: "stanislav.huseletov@trilogy.com"
+    orcid: ""
+repository-code: "https://github.com/StanHus/intelligence-to-deck"
+url: "https://github.com/StanHus/intelligence-to-deck"
+repository-artifact: "https://zenodo.org/records/15632558"
+doi: "10.5281/zenodo.15632558"
+version: "0.3"
+date-released: 2025-06-10
+license: MIT
+keywords:
+  - "artificial intelligence"
+  - "presentation generation"
+  - "workflow automation"
+  - "document processing"
+  - "business intelligence"
+  - "slides automation"
+  - "AI workflow"
+  - "PDF conversion"
+  - "Google Slides API"
+  - "Decktopus"
+  - "Marp"
+  - "OpenAI"
+preferred-citation:
+  type: software
+  title: "Intelligence-to-Deck: AI-Powered Presentation Generation"
+  authors:
+    - family-names: "Huseletov"
+      given-names: "Stanislav"
+      email: "stanislav.huseletov@trilogy.com"
+  doi: "10.5281/zenodo.15632558"
+  url: "https://github.com/StanHus/intelligence-to-deck"
+  version: "0.3"
+  year: 2025

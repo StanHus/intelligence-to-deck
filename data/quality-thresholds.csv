@@ -1,0 +1,14 @@
+Accuracy Range,Sample Size,Client Satisfaction (1-10),Missing Context Flags,Revision Requests,Approval Time (days),Notes
+85-89%,25,6.2,18,12,4.2,"Below minimum viable threshold"
+90-93%,40,7.8,8,6,2.8,"Functional but requires improvement"
+94-96%,120,9.2,2,1,1.1,"Optimal quality range"
+97-99%,15,9.4,0,0,0.8,"Exceptional quality, diminishing returns"
+Tool,Content Population %,Quality Rating,Client Feedback,Recommendation
+Decktopus,94,Excellent,"Content accurate and well-structured",Primary choice
+Gamma,67,Good,"Better than average but missing details",Backup option
+Tome,72,Good,"Strong narrative flow, some gaps",Creative projects
+Canva,28,Poor,"Beautiful design, manual content required",Design only
+Google Slides,31,Poor,"Too many formatting errors",Avoid for automation
+Notion+Slides,85,Good,"Privacy compliant but slow",GDPR requirements
+Beautiful.ai,26,Poor,"Template focused, limited automation",Traditional use only
+Slidebean,29,Poor,"Good templates, poor content generation",Manual workflows only 
